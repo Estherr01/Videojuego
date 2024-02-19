@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Botones -->
+
+    <!-- SeekBar -->
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:text="Reproducción Audio"
+        android:textAlignment="center"
+        android:textSize="20dp">
+
+    </TextView>
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="123dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <TextView
+        android:id="@+id/durationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="0:00/0:00" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/durationTextView"
+        android:layout_marginBottom="-124dp"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/play"
+        android:layout_alignBottom="@+id/durationTextView"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="-125dp"
+        android:layout_toEndOf="@+id/play"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/btStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pause"
+        android:layout_alignBottom="@+id/pause"
+        android:layout_marginEnd="-147dp"
+        android:layout_marginBottom="0dp"
+        android:text="Stop" />
+
+</RelativeLayout>

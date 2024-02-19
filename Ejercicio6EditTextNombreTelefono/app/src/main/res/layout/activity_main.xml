@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:backgroundTint="#F1EBF3"
+    tools:context=".MainActivity">
+
+    //Creamos los botones EditText para escribir
+    //el nombre,apellido y DNI. Añadimos la opcion phone para el telefono
+    //Modificamos el tamaño de las letras
+    //Con la funcion hint podemos escribir sobre
+    //la caja de texto ya que al pulsar para escribir se borrará
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textColor="#0E0C0C"
+        android:textColorHint="#C5BCBC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="text"
+        android:textColor="#0C0B0B"
+        android:textColorHint="#BDB8B8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone"
+        android:textColor="#121010"
+        android:textColorHint="#B3ACAC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="239dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="DNI"
+        android:inputType="text"
+        android:textColor="#131313"
+        android:textColorHint="#A39D9D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    //Creamos un botón para pulsar cuando tengamos todo el formulario completado
+    //y le cambiamos el tamaño y color de la letra
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Button"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    //Creamos un textView para mostrar el mensaje aunque también podríamos hacerlo con Toast
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="311dp"
+        android:layout_height="59dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.181" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

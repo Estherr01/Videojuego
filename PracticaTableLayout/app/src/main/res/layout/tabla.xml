@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:text="Hola"
+            android:padding="4dp"/>
+        <TextView
+            android:text="Holita"
+            android:padding="4dp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Hola"
+            android:padding="4dp"/>
+        <TextView
+            android:text="Holita"
+            android:padding="4dp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Hola"
+            android:padding="4dp"/>
+        <TextView
+            android:text="Holita"
+            android:padding="4dp"/>
+
+    </TableRow>
+
+
+</TableLayout>
+</LinearLayout>

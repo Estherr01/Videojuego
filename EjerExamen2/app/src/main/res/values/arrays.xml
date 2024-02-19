@@ -1,0 +1,10 @@
+
+<resources>
+        <string-array name="asunto_array">
+            <item>Pan</item>
+            <item>Leche</item>
+            <item>Chocolate</item>
+            <item>Huevos</item>
+        </string-array>
+
+</resources>

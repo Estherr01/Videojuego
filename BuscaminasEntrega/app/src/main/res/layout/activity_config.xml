@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/difficulty"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:text="@string/difficulty"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <RadioGroup
+            android:id="@+id/radio_difficulty"
+            android:layout_width="284dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="49dp"
+            android:weightSum="3">
+
+            <RadioButton
+                android:id="@+id/easy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="easy"
+                android:text="@string/easy"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="normal"
+                android:text="@string/normal"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/difficult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="difficult"
+                android:text="@string/difficult"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/bombs"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="@string/number_bombs"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_number_bombs"
+            android:layout_width="62dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="48dp"
+            android:ems="10"
+            android:maxLength="100"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:onClick="finish"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:onClick="savePrefs"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/colorAccent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

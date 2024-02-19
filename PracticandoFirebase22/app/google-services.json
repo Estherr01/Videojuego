@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "980094375826",
+    "project_id": "practicandofirebase22",
+    "storage_bucket": "practicandofirebase22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980094375826:android:fa056aff8ba4ba6403d34b",
+        "android_client_info": {
+          "package_name": "com.example.practicandofirebase22"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_X2QuXHC0Md3UVQP1c3XKE0EcJJ-Up-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

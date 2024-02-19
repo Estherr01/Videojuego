@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aplicacion Libre1</string>
+    <string name="pass_correcta">Contraseña aceptada</string>
+    <string name="pass_incorrecta">Las contraseñas no coinciden</string>
+</resources>

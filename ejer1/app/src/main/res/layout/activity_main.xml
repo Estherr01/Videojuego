@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#009688"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <!--Hemos creado un Layout en horizontal para que loa botones se pongan en esa posicion-->
+    <LinearLayout
+        android:layout_width="258dp"
+        android:layout_height="98dp"
+        android:layout_margin="1dp"
+        android:background="#FFEB3B"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="31dp">
+
+        <!--Creamos un botón y le añadimos el margen -->
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="Button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+
+    <!--Hemos arrastrado otro Layout pero esta vez en vertical-->
+    <!--Creamos los botones, los cuales añadimos los márgenes,el nombre del botón,cambiamos las letras y colores-->
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:background="#CDDC39"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:paddingLeft="15dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="215dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:background="#00BCD4"
+            android:padding="12dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="24dp"
+            android:text="Button"
+            app:iconPadding="10dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="183dp"
+            android:layout_height="121dp"
+            android:insetTop="10dp"
+            android:insetBottom="10dp"
+            android:text="Button"
+            android:textAlignment="viewEnd"
+            android:textAllCaps="false"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            app:iconPadding="30dp" />
+    </LinearLayout>
+    <!--Finalmente añadimos otro boton y modificamos los bordes,color,y ancho-->
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="155dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#F44336"
+        android:text="Button"
+        android:textColor="#8BC34A"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

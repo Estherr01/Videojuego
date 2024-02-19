@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "503144209028",
+    "project_id": "practicando-examen0502",
+    "storage_bucket": "practicando-examen0502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503144209028:android:358a7f2e76eef2c66200d1",
+        "android_client_info": {
+          "package_name": "com.example.practicando_examen0502"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhduXV9o1KVHvFAH92EMjEYCOMRwA2Unc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

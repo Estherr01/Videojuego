@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:columCount="3"
+    android:layout_row="4">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="512dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:text="Boton1"
+        app:layout_columnSpan="2" />
+
+    <Button
+
+        android:layout_row="0"
+        android:layout_column="1"
+        android:text="Boton2"/>
+    <Button
+
+        android:layout_row="0"
+        android:layout_column="2"
+        android:text="Boton3"/>
+    <Button
+
+        android:layout_row="0"
+        android:layout_column="3"
+        android:text="Boton2"/>
+    <Button
+
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="Boton2"/>
+    <Button
+
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="Boton2"/>
+
+
+</GridLayout>
+

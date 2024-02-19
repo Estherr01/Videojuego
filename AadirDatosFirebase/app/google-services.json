@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "941996273802",
+    "project_id": "a-adirdatosfirebase",
+    "storage_bucket": "a-adirdatosfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941996273802:android:b0bf5fc25d2442362f3d73",
+        "android_client_info": {
+          "package_name": "com.example.aadirdatosfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgfipY_-nay8-mJrxrNi6eyrqMHaLCU08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+9891<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6AAAA"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="285dp"
+        android:background="#C6AAAA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contacto" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="49dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="272dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint=""
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="49dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="272dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint=""
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Pulse Aqui"
+        android:textColorHighlight="#A59898"
+        android:textColorLink="#9C8383"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        tools:layout_editor_absoluteX="138dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjerExamen2</string>
+    <string name="subject_prompt">Seleccionar Asunto</string>
+
+</resources>

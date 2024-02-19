@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TextView para mostrar información -->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- SeekBar para controlar el progreso de la reproducción -->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_marginTop="20dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <!-- Botones de reproducción, pausa, detener, minimizar y sumar -->
+    <Button
+        android:id="@+id/bPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_below="@id/seekBar"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/bPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_below="@id/bPlay"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/bStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_below="@id/bPause"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/bMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min"
+        android:layout_below="@id/bStop"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/bSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumar"
+        android:layout_below="@id/bMin"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"/>
+
+</RelativeLayout>

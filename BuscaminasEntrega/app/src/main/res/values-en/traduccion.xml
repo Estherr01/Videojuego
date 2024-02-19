@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Buscaminas</string>
+    //variables menu principal
+    <string name="option_play">Play</string>
+    <string name="option_config">Configuration</string>
+    <string name="option_exit">Exit</string>
+    <string name="title_activity_play">PlayActivity</string>
+    //variables dialogo salida
+    <string name="title_dialog">Saliendo de Buscaminas</string>
+    <string name="message">"Estás seguro que quieres salir?"</string>
+    //variables configuración
+    <string name="difficulty">Dificultad</string>
+    <string name="number_bombs">Número de bombas</string>
+    <string name="easy">Fácil (5x5)</string>
+    <string name="normal">Normal (8x8)</string>
+    <string name="difficult">Dificil (12x12)</string>
+    <string name="back">Atrás</string>
+    <string name="save">Guardar</string>
+
+</resources>

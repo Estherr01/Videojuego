@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el primer número"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numero1"
+        android:layout_marginTop="16dp"
+        android:hint="Ingresa el segundo número"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numero2"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:text="Sumar" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSumar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:layout_below="@id/btnRestar"
+        android:layout_marginTop="16dp"
+        android:text="Multiplicar" />
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMultiplicar"
+        android:backgroundTint="#2196F3"
+        android:layout_marginTop="16dp"
+        android:text="Dividir" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="289dp"
+        android:layout_height="68dp"
+        android:layout_below="@id/btnDividir"
+        android:layout_marginTop="16dp"
+        android:text="Resultado: "
+        android:textSize="24sp"
+        android:visibility="invisible" />
+</RelativeLayout>

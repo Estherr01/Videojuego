@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "622671613487",
+    "project_id": "fir-dia2-02",
+    "storage_bucket": "fir-dia2-02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622671613487:android:255369e87632dc7147c0da",
+        "android_client_info": {
+          "package_name": "com.example.firebasedia2_02"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYV7AP6oW3IxmEC2fvQLoGr1qT8-fSPO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

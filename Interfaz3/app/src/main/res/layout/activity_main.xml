@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="133dp"
+        android:layout_height="44dp"
+        android:fontFamily="serif"
+        android:text="Cloudy"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tiempo" />
+
+    <GridLayout
+        android:layout_width="410dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="4dp"
+        android:columnCount="0"
+        android:rowCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="2dp">
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="59dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/tiempo"
+            android:background="@android:color/holo_blue_light"
+            app:layout_colum="0"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="59dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/tiempo"
+            android:background="@android:color/holo_blue_light"
+            app:layout_colum="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="59dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/tiempo"
+            android:background="@android:color/holo_blue_light"
+            app:layout_colum="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="59dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/tiempo"
+            android:background="@android:color/holo_blue_light"
+            app:layout_colum="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="33dp"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/tiempo"
+            app:layout_colum="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="38dp"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/tiempo"
+            app:layout_colum="3"
+            app:layout_row="1" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12ºC"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="106dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="79dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="56dp"
+        android:text="Weather"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="66dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

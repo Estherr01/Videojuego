@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NotificacionesPermisos</string>
+    <string name="channel_name">Nombre del canal</string>
+    <string name="channel_description">Descripción del canal</string>
+</resources>
